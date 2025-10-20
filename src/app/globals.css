@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color:#ff7b00;
+  --primary-color-op: #ff880015;
+  --primary-color-op-b: #ff88002d;
+  --secondary-color: #138808;
+  --accent-color: #000080; 
+  --white-color: #fff;
+  --black-color:#000;
+  --gray-color: #2f2f2f;
+}
+
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+
+.primary-btn {
+  border: 2px solid transparent;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: var(--white-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color:var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 140px;
+}
+
+.primary-btn:hover {
+  border:2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(var(--primary-color), 0.2);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(var(--primary-color), 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.secondary-btn {
+  border: 2px solid var(--primary-color);
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 140px;
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.secondary-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.secondary-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+
+.secondary-btn:hover::before {
+  width: 100%;
+}
+
+
+@media (max-width: 479px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+}

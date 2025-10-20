@@ -1,0 +1,56 @@
+{
+  "navLinks": [
+    {
+      "name": "Highlights",
+      "link": "/highlights"
+    },
+    {
+      "name": "About",
+      "link": "/bbout"
+    },
+    {
+      "name": "Festival",
+      "link": "/festival"
+    },
+    {
+      "name": "Administration",
+      "link": "/administration"
+    },
+    {
+      "name": "Contact Us",
+      "link": "/contact-us"
+    }
+  ],
+
+  "footerLinks": [
+    {
+      "title": "Company",
+      "links": [
+        { "name": "About Us", "link": "/about" },
+        { "name": "Careers", "link": "/careers" },
+        { "name": "Contact", "link": "/contact" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "name": "Help Center", "link": "/help" },
+        { "name": "Privacy Policy", "link": "/privacy" },
+        { "name": "Terms of Service", "link": "/terms" }
+      ]
+    }
+  ],
+
+  "adminLinks": [
+    { "name": "Dashboard", "link": "/admin/dashboard" },
+    { "name": "Users", "link": "/admin/users" },
+    { "name": "Settings", "link": "/admin/settings" },
+    { "name": "Logout", "link": "/logout" }
+  ],
+
+  "otherLinks": [
+    { "name": "Blog", "link": "/blog" },
+    { "name": "FAQ", "link": "/faq" },
+    { "name": "Sitemap", "link": "/sitemap.xml" }
+  ]
+}
