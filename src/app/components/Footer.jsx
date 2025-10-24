@@ -104,11 +104,11 @@ const Footer = () => {
         <p className="mt-2 text-sm">
           Designed & Developed by{" "}
           <a
-            href="https://yourcompany.com"
+            href="https://projectsperks.com/"
             target="_blank"
             className="font-semibold hover:underline text-[var(--primary-color)]"
           >
-            Shahed
+            Projects Perks
           </a>
           . Need a professional website?{" "}
           <a
