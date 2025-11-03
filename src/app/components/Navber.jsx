@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import navData from "./links.json";
 import LanguageSwitcher from "./LanguageSwitcher";
 import BookingPopup from "./BookingPopup";
+import Link from "next/link";
 
 const Navber = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -85,13 +86,13 @@ const Navber = () => {
                 >
                   Book Now
                 </button>
-                <button
+                <Link href="/donation"
                   className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                     isScrolled ? "primary-btn" : "secondary-btn"
                   }`}
                 >
                   Donate Now
-                </button>
+                </Link>
               </div>
             </div>
 

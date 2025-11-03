@@ -2,9 +2,12 @@
 import React from "react";
 
 export default function ImageGallery() {
+
+  // call api /api/highlights/image
+  
   const galleryItems = [
     {
-      src: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
+      src: "https://res.cloudinary.com/dnkgyxlde/image/upload/v1762187294/borbheti/sm5ufo69atqtkkcqzrap.png",
       title: "Peaceful Morning Vibes",
     },
     {

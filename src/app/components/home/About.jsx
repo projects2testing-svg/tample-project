@@ -3,8 +3,12 @@ import { FaHandHoldingHeart, FaBookOpen } from "react-icons/fa";
 export default function BorbhetiSection() {
   return (
     <div className="container">
+      <div className="text-center mt-12">
+        <h2 className="text-3xl font-semibold">Welcome to Borbhetii</h2>
+        <p className="mt-2 text-gray-600">Explore the temple’s spiritual heritage, ancient tales, and serene surroundings.</p>
+      </div>
       <section className="flex flex-col md:flex-row items-stretch justify-center gap-10 max-md:px-4 py-16 relative">
-        {/* Left Image Section */}
+        
         <div className="relative flex-1 rounded-2xl overflow-hidden shadow-2xl shadow-[var(--primary-color)]/40">
           <img
             className="w-full h-full object-cover"
@@ -39,7 +43,6 @@ export default function BorbhetiSection() {
         {/* Right Content Section */}
         <div className="flex-1 text-sm text-[var(--gray-color)] flex flex-col justify-between">
           <div>
-            <h1 className="text-2xl font-semibold text-[var(--primary-color)] mb-2">Borbheti</h1>
             <p className="mt-6 text-[15px] leading-relaxed">
               Established in 1768 by <strong>Sri Sri Astabhuj Dev</strong>, <strong>Borbheti</strong> is a revered pilgrimage site in
               Jorhat, Assam — known for its spiritual heritage and attracting thousands of devotees each year.

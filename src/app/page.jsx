@@ -14,7 +14,7 @@ export default function Home() {
      <HeaderSlider />
      <BorbhetiSection />
      <ProgramSchedule />
-     <RecommendedTemplates />
+     {/* <RecommendedTemplates /> */}
      <ImageGallery />
      <Administration />
      <VideoGallery />

@@ -97,7 +97,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-gray-200 py-4 text-center text-sm md:text-base text-gray-600">
+      <div className="border-t border-gray-200 bg-white py-4 text-center text-sm md:text-base text-gray-600 relative z-[9] lg:z-0">
         <p>
           © {new Date().getFullYear()} Borbheti Temple All Rights Reserved.
         </p>
