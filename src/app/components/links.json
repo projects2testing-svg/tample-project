@@ -6,7 +6,7 @@
     },
     {
       "name": "About",
-      "link": "/bbout"
+      "link": "/about"
     },
     {
       "name": "Festival",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Contact Us",
-      "link": "/contact-us"
+      "link": "/contact"
     }
   ],
 

@@ -4,7 +4,6 @@ import { GoVideo } from "react-icons/go";
 
 export default function VideoGallery() {
 
-  
   const videos =[
     {
       id: 1,

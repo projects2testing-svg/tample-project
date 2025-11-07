@@ -385,10 +385,10 @@ export default function DonationPage() {
                               <div className="bg-white p-4 rounded-lg border-2 border-dashed border-[var(--primary-color)]/30 mb-3">
                                 {/* Replace with your actual QR code */}
                                 <div className="w-48 h-48 mx-auto bg-gray-200 flex items-center justify-center mb-3">
-                                  <span className="text-gray-500">QR Code Image</span>
+                                  <img src={method.details.qrCode} alt="" srcset="" />
                                 </div>
                                 <div className="flex items-center justify-center gap-2 mb-2">
-                                  <span className="font-mono bg-white px-3 py-1 rounded border">
+                                  <span className="font-mono bg-[var(--primary-color)] px-3 py-1 rounded border text-white">
                                     {method.details.upiId}
                                   </span>
                                   <button 

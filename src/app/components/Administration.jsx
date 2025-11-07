@@ -3,7 +3,7 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Mr. Nabin Chandra Patra",
+    name: "Purna kanta bora",
     title: "Chief Administrator",
     role: "Admin",
     img: "../../../assets/WhatsApp Image 2025-10-21 at 16.45.21_8d17664b.jpg",
@@ -11,7 +11,7 @@ const teamMembers = [
     whatsapp: "+911234567890"
   },
   {
-    name: "Smt. Laxmi Devi",
+    name: "Ajay nath",
     title: "Finance Manager",
     role: "Admin",
     img: "../../../assets/WhatsApp Image 2025-10-21 at 16.45.54_118be9b1.jpg",
@@ -19,7 +19,7 @@ const teamMembers = [
     whatsapp: "+911234567891"
   },
   {
-    name: "Sri Keshav Nath",
+    name: "Nabin patra",
     title: "Operations Head",
     role: "Admin",
     img: "../../../assets/WhatsApp Image 2025-10-21 at 16.46.22_0b79d41f.jpg",
@@ -27,7 +27,7 @@ const teamMembers = [
     whatsapp: "+911234567892"
   },
   {
-    name: "Smt. Anjali Bora",
+    name: "Surendra nath",
     title: "Event Coordinator",
     role: "Admin",
     img: "../../../assets/WhatsApp Image 2025-10-21 at 16.47.10_99f70ea4.jpg",

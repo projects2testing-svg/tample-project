@@ -44,7 +44,7 @@ const Navber = () => {
                 alt="Borbheti Logo"
                 className="h-10 w-10"
               />
-              <span className="tracking-wide">Borbheti</span>
+              <span className="tracking-wide">Shri Shri Ashtabhuj Debor Borbheti</span>
             </a>
 
             {/* Desktop Links */}

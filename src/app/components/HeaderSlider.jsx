@@ -15,23 +15,35 @@ const HeaderSlider = () => {
     pauseOnHover: false,
   };
 
-  const slides = [
-    {
-      image: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      title: "Welcome to Borbheti Temple",
-      subtitle: "Where devotion meets divinity",
-    },
-    {
-      image: "https://www.maakamakhya.org/assets/images/history.jpg",
-      title: "Na-Laguwa Utsav Celebration",
-      subtitle: "Experience the faith and togetherness",
-    },
-    {
-      image: "https://www.maakamakhya.org/assets/images/Bagala-devi.jpg",
-      title: "Discover Spiritual Assam",
-      subtitle: "A journey through culture and belief",
-    },
-  ];
+  
+const slides = [
+  {
+    image: "../../../assets/banner1.jpg",
+    title: "Welcome to Borbheti Temple",
+    subtitle: "A sacred space where devotion and peace unite",
+  },
+  {
+    image: "../../../assets/banner2.jpg",
+    title: "Na-Laguwa Utsav Celebration",
+    subtitle: "Celebrate faith, tradition, and community together",
+  },
+  {
+    image: "../../../assets/banner3.jpg",
+    title: "Spiritual Journey Through Assam",
+    subtitle: "Explore heritage, culture, and divine experiences",
+  },
+  {
+    image: "../../../assets/banner4.jpg",
+    title: "Experience Devotion Daily",
+    subtitle: "Join rituals, prayers, and soulful gatherings",
+  },
+  {
+    image: "../../../assets/banner5.jpg",
+    title: "Unity in Faith and Culture",
+    subtitle: "Connecting hearts through spirituality and tradition",
+  },
+];
+
 
   return (
     <div className="relative w-full h-[80vh] overflow-hidden">

@@ -7,21 +7,21 @@ const Footer = () => {
       title: "Quick Links",
       links: [
         { label: "Home", href: "/" },
-        { label: "Highlights", href: "/solutions/enterprise" },
-        { label: "About", href: "/resources/docs" },
-        { label: "Festival", href: "/contact-us" },
-        { label: "Contact Us", href: "/company/contact" },
+        { label: "Highlights", href: "/highlights" },
+        { label: "About", href: "/about" },
+        { label: "Festival", href: "/festival" },
       ],
     },
     {
       title: "Important Pages",
       links: [
-        { label: "Terms & Conditions", href: "/terms-and-conditions" },
-        { label: "Privacy Policy", href: "/privacy-policy" },
+        // { label: "Terms & Conditions", href: "/terms-and-conditions" },
+        // { label: "Privacy Policy", href: "/privacy-policy" },
         { label: "Administration", href: "/administration" },
-        { label: "Donation", href: "/get-started" },
-        { label: "Book Now", href: "/login" },
+        { label: "Book Now", href: "/book-now" },
+        { label: "Contact Us", href: "/contact" },
       ],
+
     },
     {
       title: "Follow Us",

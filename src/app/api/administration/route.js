@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
-import connectDB from "@/lib/connectDB";
-import AdminTeam from "@/models/AdminTeam";
+import { connectDB } from "../../../../lib/db";
+import administrations from "../../../../models/administrations";
+
 
 async function verifyAdmin(req) {
   const token = req.headers.get("authorization")?.split(" ")[1];
@@ -23,7 +24,7 @@ export async function GET(req) {
   const auth = await verifyAdmin(req);
   if (!auth) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
-  const team = await AdminTeam.find({}).sort({ priority: -1 });
+  const team = await administrations.find({}).sort({ priority: -1 });
   return NextResponse.json({ success: true, team });
 }
 
@@ -35,7 +36,7 @@ export async function POST(req) {
   if (!auth) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const data = await req.json();
-  const created = await AdminTeam.create(data);
+  const created = await administrations.create(data);
 
   return NextResponse.json({ success: true, created });
 }
@@ -49,7 +50,7 @@ export async function PUT(req) {
 
   const { id, ...updateData } = await req.json();
 
-  const updated = await AdminTeam.findByIdAndUpdate(id, updateData, { new: true });
+  const updated = await administrations.findByIdAndUpdate(id, updateData, { new: true });
   if (!updated) return NextResponse.json({ error: "Team member not found" }, { status: 404 });
 
   return NextResponse.json({ success: true, updated });
@@ -63,7 +64,7 @@ export async function DELETE(req) {
   if (!auth) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const { id } = await req.json();
-  const deleted = await AdminTeam.findByIdAndDelete(id);
+  const deleted = await administrations.findByIdAndDelete(id);
 
   if (!deleted) return NextResponse.json({ error: "Team member not found" }, { status: 404 });
 
