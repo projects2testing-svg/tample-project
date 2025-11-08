@@ -186,9 +186,11 @@ const Navber = () => {
               >
                 Book Now
               </button>
-              <button className="primary-btn w-48">
+              <a 
+                href="/donation"
+                className="primary-btn w-48">
                 Donate Now
-              </button>
+              </a>
             </div>
           </div>
         </nav>
@@ -211,4 +213,5 @@ const Navber = () => {
 };
 
 export default Navber;
+
 
