@@ -5,10 +5,10 @@ const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
 
   const languages = [
+    { code: 'as', label: 'অসমীয়া' },
     { code: 'en', label: 'English' },
     { code: 'hi', label: 'हिन्दी' },
     { code: 'bn', label: 'বাংলা' },
-    { code: 'as', label: 'অসমীয়া' },
   ];
 
   const handleChange = (e) => {

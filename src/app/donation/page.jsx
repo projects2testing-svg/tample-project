@@ -22,8 +22,8 @@ const bankDetails = {
 
 // UPI details
 const upiDetails = {
-  upiId: "templetrust@oksbi",
-  qrCode: "../../../assets/image.png"
+  upiId: "chiranjib2patra@okhdfcbank",
+  qrCode: "../../../assets/qr-code.jpg"
 };
 
 export default function DonationPage() {

@@ -196,7 +196,7 @@ const Navber = () => {
       {/* Bottom Announcement */}
       <div className="bottom-announcement text-center text-gray-700 relative z-40 mt-[140px] container">
         <marquee>
-          This is Borbheti Temple, Jorhat Assam — Borbheti Temple, Jorhat Assam — Borbheti Temple, Jorhat Assam
+           The 258th edition of the “Nalaguwa Utsav” will be celebrated at Shri Shri Astabhuj Dev Than on Sunday, 23rd November 2025. For more information, please find the details below.
         </marquee>
       </div>
 

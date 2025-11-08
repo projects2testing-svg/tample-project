@@ -9,37 +9,37 @@ export default function VideoGallery() {
       id: 1,
       title: "Temple Morning Rituals",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://static.vecteezy.com/system/resources/previews/014/927/511/mp4/soap-bubbles-floating-in-the-air-with-natural-green-blurred-bokeh-background-for-children-and-kids-in-the-park-free-video.mp4",
+      url: "https://youtu.be/1jKvMQYd3XM?si=8wLV41YLKhcxbnxd",
     },
     {
       id: 2,
       title: "Traditional Ceremony Highlights",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://static.vecteezy.com/system/resources/previews/014/927/511/mp4/soap-bubbles-floating-in-the-air-with-natural-green-blurred-bokeh-background-for-children-and-kids-in-the-park-free-video.mp4",
+      url: "https://youtu.be/Eoxb5qM-pVI?si=Dy2XuvGEEkuFvukr",
     },
     {
       id: 3,
       title: "Sacred Chanting Moments",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://static.vecteezy.com/system/resources/previews/014/927/511/mp4/soap-bubbles-floating-in-the-air-with-natural-green-blurred-bokeh-background-for-children-and-kids-in-the-park-free-video.mp4",
+      url: "https://youtu.be/hYCenRaD0qE?si=7g2DKKzXA7CVASBD",
     },
     {
       id: 4,
       title: "Festival Celebration 2025",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://www.youtube.com/watch?v=CkqVlK2UqfQ",
+      url: "https://youtu.be/voL5OcB7e1w?si=wglhbXdfa-AcYr24",
     },
     {
       id: 5,
       title: "Festival Celebration 2025",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://youtu.be/CkqVlK2UqfQ",
+      url: "https://youtu.be/Ay0h5Cbouj8?si=dCgIPoYjX4BJLuH1",
     },
     {
       id: 6,
       title: "Festival Celebration 2025",
       thumbnail: "https://www.maakamakhya.org/assets/images/ma_kama.jpg",
-      url: "https://www.youtube.com/embed/CkqVlK2UqfQ",
+      url: "https://youtu.be/_aARY2ND_Gc?si=2Dn4rbbyUTM7d4Cr",
     },
   ];
 
