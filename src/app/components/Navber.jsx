@@ -139,7 +139,8 @@ const Navber = () => {
 
             {navData.navLinks.map((link, i) => (
               <div key={i} className="w-full text-center">
-                <button
+                <a
+                  href={link.link}
                   className="w-full py-2 px-5 text-gray-800 font-medium flex justify-center gap-2"
                   onClick={() =>
                     setOpenDropdown(openDropdown === i ? null : i)
@@ -159,7 +160,7 @@ const Navber = () => {
                       <path d="M6 9l6 6 6-6" />
                     </svg>
                   )}
-                </button>
+                </a>
 
                 {link.sublinks && openDropdown === i && (
                   <div className="flex flex-col bg-gray-100 rounded-md mt-1">
@@ -210,3 +211,4 @@ const Navber = () => {
 };
 
 export default Navber;
+
